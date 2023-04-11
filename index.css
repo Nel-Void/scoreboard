@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #1B244A;
+}
+
+@font-face {
+    font-family: cursedTimer;
+    src: url('/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5;
+}
+
+.container > div > h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container2 > div > h3 {
+    width: 150px;
+    height: 120px;
+    background-color: black;
+    color: #F94F6D;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 130px;
+    margin: 0px auto 25px; 
+    font-family: cursedTimer;
+    border-radius: 5px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container4 {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.container4 > button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-family: cursedTimer;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    margin: 0 5px;
+}
+
+#reset {
+    display: block;
+    margin: 40px auto;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: cursedTimer;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#reset:hover {
+    background-color: #6B7280;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+.score-button:hover {
+    background-color: #6B7280;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
